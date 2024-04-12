@@ -17,6 +17,7 @@ public class Doynekodz5 {
     private static int currentThread = 0;
 
     public static void main(String[] args) {
+        System.out.println("Дойнеко Юлия Антоновна. Вариант 1.");
         Thread thread0 = new Thread(new MyRunnable(0));
         Thread thread1 = new Thread(new MyRunnable(1));
         Thread thread2 = new Thread(new MyRunnable(2));
